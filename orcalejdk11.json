@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.oracle.com/otn/java/jdk/11.0.5+10/e51269e04165492b90fa15af5b4eb1a5/jdk-11.0.5_windows-x64_bin.zip",
-            "hash": "e5d3e15f9eba306760b660dedb331ecddeefd80b12022722cd458b4949a25d7f"
+            "hash": "0d4d16adbcc5ab4f571fe65c2b6d1e440ffad720d522641dc0361e41ce8e53abf"
         }
     },
     "cookie": {
