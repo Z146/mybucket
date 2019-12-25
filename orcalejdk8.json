@@ -2,7 +2,7 @@
     "homepage": "https://www.oracle.com/technetwork/java/javase/overview/index.html",
     "description": "Oracle JDK 8",
     "license": "https://java.com/otnlicense",
-    "version": "8u231",
+    "version": "1.8.0_231",
     "architecture": {
         "64bit": {
             "url": "http://download.macromedia.com/pub/coldfusion/java/java8/JDK8u231/jdk-8u231-windows-x64.exe#/dl.7z",
