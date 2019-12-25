@@ -19,13 +19,13 @@
     },
     "checkver": {
         "url": "https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html",
-        "regex": "otn/java/jdk/(?<path>(?<major>[\\d.]+)\\+(?<build>[\\d]+)/(?<hash>[a-fA-F0-9]{32})/jdk-(?:.*?)_windows-x64_bin.zip)",
+        "re": "otn-pub/java/jdk/(?<path>(?<major>[\\d.]+)\\+(?<build>[\\d]+)/(?<hash>[a-fA-F0-9]{32})/jdk-(?:.*?)_windows-x64_bin.zip)",
         "replace": "${major}-${build}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.oracle.com/otn/java/jdk/$matchPath"
+                "url": "https://download.oracle.com/otn-pub/java/jdk/$matchPath"
             }
         },
         "hash": {
